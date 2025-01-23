@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Create navigation bar -->
     <div class="container">
         <div class="row">
             <div class="col-md-6 offset-md-3">
@@ -27,7 +28,7 @@
                 <div class = "content">
                     <br>
                     <h1>Trivia Time!</h1>
-                    
+                    <!-- Trivia question -->
                     <p> 
                        Which Quaker astrophysicist co-discovered the first four pulsars?
                     </p>
@@ -41,6 +42,10 @@
                         <img src="images/star_trio.gif" alt="three stars clusters"  class="center"/>
                     </p>
                     <br>
+                    <!-- Create button to open Wikipedia pages. -->
+                    <p>Click below to read about them! (pop-ups)<br>
+                        <button type = "button", class="btn btn-dark custom-width", id="wiki"> Open Wikipedia</button><br>
+                    </p>
                     
                     <br>
                 </div>
@@ -51,6 +56,7 @@
 
 <!-- Link Bootstrap script. -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<!-- Link script -->
 <script src="trivia.js"></script>
 </body>
 </html>
