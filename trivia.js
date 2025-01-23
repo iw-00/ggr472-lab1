@@ -24,7 +24,7 @@ eddington.addEventListener("click", () => {
 
 wiki.addEventListener("click", () => {
     window.open("https://en.wikipedia.org/wiki/Maria_Mitchell", "_blank");
-    window.open("https://en.wikipedia.org/wiki/Elizabeth_Brown_(astronomer)", "_blank");
-    window.open("https://en.wikipedia.org/wiki/Jocelyn_Bell_Burnell", "_blank");
-    window.open("https://en.wikipedia.org/wiki/Arthur_Eddington", "_blank");
+    // window.open("https://en.wikipedia.org/wiki/Elizabeth_Brown_(astronomer)", "_blank");
+    // window.open("https://en.wikipedia.org/wiki/Jocelyn_Bell_Burnell", "_blank");
+    // window.open("https://en.wikipedia.org/wiki/Arthur_Eddington", "_blank");
 });
