@@ -1,8 +1,11 @@
+// Initialize trivia answer buttons.
 const mitchell = document.getElementById("mitchell");
 const brown = document.getElementById("brown");
 const burnell = document.getElementById("burnell");
 const eddington = document.getElementById("eddington");
 
+
+// Open alert on click for each button.
 mitchell.addEventListener("click", () => {
     alert("Nope! Try again.");
 });
@@ -18,5 +21,5 @@ burnell.addEventListener("click", () => {
 });
 
 eddington.addEventListener("click", () => {
-    alert("Nope! Try again.");
+    alert("Not exactly! Try again.");
 });

@@ -6,4 +6,6 @@ Creating a GeoJSON and HTML webpage.
 
 The GeoJSON contains stargazing sites in Ontario, adapted from https://www.destinationontario.com/en-ca/articles/best-places-for-stargazing-ontario using geojson.io.
 
-The webpage contains a link to the external website, as well as to the GeoJSON file. There is also a page for trivia and a separate script for its functionality.
+The Home page contains a link to the original external website, as well as to the GeoJSON file. 
+
+The Trivia page contains a trivia question and links to Wikipedia for more information on the trivia responses. A separate script is used for the Trivia page's functionality.

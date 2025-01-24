@@ -26,11 +26,12 @@ body {
     text-align: center;
   }
 
+  /* To change background colour of page content. */
   .content{
     background-color: black;
   }
 
-  /* To centre images */
+  /* To centre images. */
   .center {
     display: block;
     margin-left: auto;
@@ -38,7 +39,7 @@ body {
     width: 50%;
   }
 
-  /* Width of buttons */
+  /* To adjust width of buttons. */
   .custom-width {
     margin-top: 10px;
     width: 200px !important;
